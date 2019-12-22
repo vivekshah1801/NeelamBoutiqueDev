@@ -273,6 +273,9 @@
 
 			<!-- Tab01 -->
 			<div class="tab01">
+				<!-- Nav tabs -->
+				
+
 				<!-- Tab panes -->
 				<div class="tab-content p-t-50">
 					<!-- - -->
@@ -281,32 +284,34 @@
 						<div class="wrap-slick2">
 							<div class="slick2">
 								<div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
+
 									<!-- Block2 -->
 									<div class="block2">
 										<div class="block2-pic hov-img0">
-											<img src="images/product.jpg" alt="IMG-PRODUCT">
+											<div class="card-img">
+                        						<img src="images/product.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
 
 											
 										</div>
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-													Esprit Ruffle Shirt
-												</a>
-
-												<span class="stext-105 cl3">
-													$16.64
-												</span>
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
 											</div>
 
-											<div class="block2-txt-child2 flex-r p-t-3">
-												<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-													
-													
-													<a href="#" class="btn btn-outline-primary " role="button">View Details</a><br /><br />
-												</a>
-											</div>
+											
 										</div>
 									</div>
 								</div>
@@ -315,25 +320,31 @@
 									<!-- Block2 -->
 									<div class="block2">
 										<div class="block2-pic hov-img0">
-											<img src="images/product.jpg" alt="IMG-PRODUCT">
+											<div class="card-img">
+                        						<img src="images/product.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
+
+											
 										</div>
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-													Herschel supply
-												</a>
-
-												<span class="stext-105 cl3">
-													$35.31
-												</span>
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
 											</div>
 
-											<div class="block2-txt-child2 flex-r p-t-3">
-												<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-													<a href="#" class="btn btn-outline-primary " role="button">View Details</a><br /><br />
-												</a>
-											</div>
+											
+
 										</div>
 									</div>
 								</div>
@@ -342,27 +353,31 @@
 									<!-- Block2 -->
 									<div class="block2">
 										<div class="block2-pic hov-img0">
-											<img src="images/product.jpg" alt="IMG-PRODUCT">
+											<div class="card-img">
+                        						<img src="images/product-03.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
 
 									
 										</div>
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-													Only Check Trouser
-												</a>
-
-												<span class="stext-105 cl3">
-													$25.50
-												</span>
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
 											</div>
 
-											<div class="block2-txt-child2 flex-r p-t-3">
-												<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-													<a href="#" class="btn btn-outline-primary " role="button">View Details</a><br /><br />
-												</a>
-											</div>
+
+											
 										</div>
 									</div>
 								</div>
@@ -371,27 +386,31 @@
 									<!-- Block2 -->
 									<div class="block2">
 										<div class="block2-pic hov-img0">
-											<img src="images/product.jpg" alt="IMG-PRODUCT">
+											<div class="card-img">
+                        						<img src="images/product-04.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
 
 											
 										</div>
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-													Classic Trench Coat
-												</a>
-
-												<span class="stext-105 cl3">
-													$75.00
-												</span>
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
 											</div>
 
-											<div class="block2-txt-child2 flex-r p-t-3">
-												<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-													<a href="#" class="btn btn-outline-primary " role="button">View Details</a><br /><br />
-												</a>
-											</div>
+
+											
 										</div>
 									</div>
 								</div>
@@ -400,27 +419,31 @@
 									<!-- Block2 -->
 									<div class="block2">
 										<div class="block2-pic hov-img0">
-											<img src="images/product.jpg" alt="IMG-PRODUCT">
+											<div class="card-img">
+                        						<img src="images/product-05.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
 
 											
 										</div>
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-													Front Pocket Jumper
-												</a>
-
-												<span class="stext-105 cl3">
-													$34.75
-												</span>
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
 											</div>
 
-											<div class="block2-txt-child2 flex-r p-t-3">
-												<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-													<a href="#" class="btn btn-outline-primary " role="button">View Details</a><br /><br />
-												</a>
-											</div>
+
+											
 										</div>
 									</div>
 								</div>
@@ -429,27 +452,39 @@
 									<!-- Block2 -->
 									<div class="block2">
 										<div class="block2-pic hov-img0">
-											<img src="images/product.jpg" alt="IMG-PRODUCT">
+											<div class="card-img">
+                        						<img src="images/product-06.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
 
 										
 										</div>
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-													Vintage Inspired Classic 
-												</a>
-
-												<span class="stext-105 cl3">
-													$93.20
-												</span>
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
 											</div>
 
-											<div class="block2-txt-child2 flex-r p-t-3">
-												<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-													<a href="#" class="btn btn-outline-primary " role="button">View Details</a><br /><br />
-												</a>
+											<div class="block2-txt-child1 flex-col-l ">
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							
+                            						<button class="btn btn-outline-primary" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;now</button> 
+                            						<button style="margin-left:50px;" class="btn btn-outline-primary">Schedule later</button>  
+                    							</div>
 											</div>
+
+										
 										</div>
 									</div>
 								</div>
@@ -458,26 +493,30 @@
 									<!-- Block2 -->
 									<div class="block2">
 										<div class="block2-pic hov-img0">
-											<img src="images/product.jpg" alt="IMG-PRODUCT">
+											<div class="card-img">
+                        						<img src="images/product-07.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
 
 										</div>
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-													Shirt in Stretch Cotton
-												</a>
-
-												<span class="stext-105 cl3">
-													$52.66
-												</span>
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
 											</div>
 
-											<div class="block2-txt-child2 flex-r p-t-3">
-												<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-													<a href="#" class="btn btn-outline-primary " role="button">View Details</a><br /><br />
-												</a>
-											</div>
+
+											
 										</div>
 									</div>
 								</div>
@@ -486,27 +525,31 @@
 									<!-- Block2 -->
 									<div class="block2">
 										<div class="block2-pic hov-img0">
-											<img src="images/product.jpg" alt="IMG-PRODUCT">
+											<div class="card-img">
+                        						<img src="images/product-08.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
 
 											
 										</div>
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-													Pieces Metallic Printed
-												</a>
-
-												<span class="stext-105 cl3">
-													$18.96
-												</span>
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
 											</div>
 
-											<div class="block2-txt-child2 flex-r p-t-3">
-												<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-													<a href="#" class="btn btn-outline-primary " role="button">View Details</a><br /><br />
-												</a>
-											</div>
+
+											
 										</div>
 									</div>
 								</div>
@@ -514,7 +557,536 @@
 						</div>
 					</div>
 
-					
+					<!-- - -->
+					<div class="tab-pane fade" id="featured" role="tabpanel">
+						<!-- Slide2 -->
+						<div class="wrap-slick2">
+							<div class="slick2">
+								<div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
+									<!-- Block2 -->
+									<div class="block2">
+										<div class="block2-pic hov-img0">
+											<div class="card-img">
+                        						<img src="images/product-08.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
+
+											
+										</div>
+
+										<div class="block2-txt flex-w flex-t p-t-14">
+											<div class="block2-txt-child1 flex-col-l ">
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
+											</div>
+
+
+											
+										</div>
+									</div>
+								</div>
+
+								<div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
+									<!-- Block2 -->
+									<div class="block2">
+										<div class="block2-pic hov-img0">
+											<div class="card-img">
+                        						<img src="images/product-10.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
+
+											
+										</div>
+
+										<div class="block2-txt flex-w flex-t p-t-14">
+											<div class="block2-txt-child1 flex-col-l ">
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
+											</div>
+
+
+										</div>
+									</div>
+								</div>
+
+								
+								<div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
+									<!-- Block2 -->
+									<div class="block2">
+										<div class="block2-pic hov-img0">
+											<div class="card-img">
+                        						<img src="images/product-01.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
+
+											
+										</div>
+
+										<div class="block2-txt flex-w flex-t p-t-14">
+											<div class="block2-txt-child1 flex-col-l ">
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
+											</div>
+
+
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- - -->
+					<div class="tab-pane fade" id="sale" role="tabpanel">
+						<!-- Slide2 -->
+						<div class="wrap-slick2">
+							<div class="slick2">
+								<div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
+									<!-- Block2 -->
+									<div class="block2">
+										<div class="block2-pic hov-img0">
+											<div class="card-img">
+                        						<img src="images/product-02.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
+
+											
+										</div>
+
+										
+								</div>
+
+								<div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
+									<!-- Block2 -->
+									<div class="block2">
+										<div class="block2-pic hov-img0">
+											<div class="card-img">
+                        						<img src="images/product-04.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
+
+											
+										</div>
+
+										<div class="block2-txt flex-w flex-t p-t-14">
+											<div class="block2-txt-child1 flex-col-l ">
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
+											</div>
+
+
+										
+										</div>
+									</div>
+								</div>
+
+								<div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
+									<!-- Block2 -->
+									<div class="block2">
+										<div class="block2-pic hov-img0">
+											<div class="card-img">
+                        						<img src="images/product-01.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
+
+											
+										</div>
+
+										<div class="block2-txt flex-w flex-t p-t-14">
+											<div class="block2-txt-child1 flex-col-l ">
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
+											</div>
+
+
+										</div>
+									</div>
+								</div>
+
+								<div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
+									<!-- Block2 -->
+									<div class="block2">
+										<div class="block2-pic hov-img0">
+											<div class="card-img">
+                        						<img src="images/product-09.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
+
+											
+										</div>
+
+										<div class="block2-txt flex-w flex-t p-t-14">
+											<div class="block2-txt-child1 flex-col-l ">
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
+											</div>
+
+
+											
+										</div>
+									</div>
+								</div>
+
+								<div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
+									<!-- Block2 -->
+									<div class="block2">
+										<div class="block2-pic hov-img0">
+											<div class="card-img">
+                        						<img src="images/product-11.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
+
+											
+										</div>
+
+										<div class="block2-txt flex-w flex-t p-t-14">
+											<div class="block2-txt-child1 flex-col-l ">
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
+											</div>
+
+
+										</div>
+									</div>
+								</div>
+
+								<div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
+									<!-- Block2 -->
+									<div class="block2">
+										<div class="block2-pic hov-img0">
+											<div class="card-img">
+                        						<img src="images/product-13.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
+
+											
+										</div>
+
+										<div class="block2-txt flex-w flex-t p-t-14">
+											<div class="block2-txt-child1 flex-col-l ">
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
+											</div>
+
+
+											
+										</div>
+									</div>
+								</div>
+
+								<div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
+									<!-- Block2 -->
+									<div class="block2">
+										<div class="block2-pic hov-img0">
+											<div class="card-img">
+                        						<img src="images/product-01.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
+
+										</div>
+
+										<div class="block2-txt flex-w flex-t p-t-14">
+											<div class="block2-txt-child1 flex-col-l ">
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
+											</div>
+
+
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- - -->
+					<div class="tab-pane fade" id="top-rate" role="tabpanel">
+						<!-- Slide2 -->
+						<div class="wrap-slick2">
+							<div class="slick2">
+								<div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
+									<!-- Block2 -->
+									<div class="block2">
+										<div class="block2-pic hov-img0">
+											<div class="card-img">
+                        						<img src="images/product-01.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
+
+										
+										</div>
+
+										<div class="block2-txt flex-w flex-t p-t-14">
+											<div class="block2-txt-child1 flex-col-l ">
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
+											</div>
+
+											
+										</div>
+									</div>
+								</div>
+
+								<div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
+									<!-- Block2 -->
+									<div class="block2">
+										<div class="block2-pic hov-img0">
+											<div class="card-img">
+                        						<img src="images/product-06.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
+
+											
+										</div>
+
+										<div class="block2-txt flex-w flex-t p-t-14">
+											<div class="block2-txt-child1 flex-col-l ">
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
+											</div>
+
+
+								
+										</div>
+									</div>
+								</div>
+
+								<div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
+									<!-- Block2 -->
+									<div class="block2">
+										<div class="block2-pic hov-img0">
+											<div class="card-img">
+                        						<img src="images/product-01.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
+
+											
+										</div>
+
+										<div class="block2-txt flex-w flex-t p-t-14">
+											<div class="block2-txt-child1 flex-col-l ">
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
+											</div>
+
+
+											
+										</div>
+									</div>
+								</div>
+
+								<div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
+									<!-- Block2 -->
+									<div class="block2">
+										<div class="block2-pic hov-img0">
+											<div class="card-img">
+                        						<img src="images/product-01.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
+
+										
+										</div>
+
+										<div class="block2-txt flex-w flex-t p-t-14">
+											<div class="block2-txt-child1 flex-col-l ">
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
+											</div>
+
+
+										
+										</div>
+									</div>
+								</div>
+
+								<div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
+									<!-- Block2 -->
+									<div class="block2">
+										<div class="block2-pic hov-img0">
+											<div class="card-img">
+                        						<img src="images/product-01.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
+
+											
+										</div>
+
+										<div class="block2-txt flex-w flex-t p-t-14">
+											<div class="block2-txt-child1 flex-col-l ">
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
+											</div>
+
+
+										
+										</div>
+									</div>
+								</div>
+
+								<div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
+									<!-- Block2 -->
+									<div class="block2">
+										<div class="block2-pic hov-img0">
+											<div class="card-img">
+                        						<img src="images/product-01.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
+
+											
+										</div>
+
+										<div class="block2-txt flex-w flex-t p-t-14">
+											<div class="block2-txt-child1 flex-col-l ">
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
+											</div>
+
+
+										</div>
+									</div>
+								</div>
+
+								
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -799,59 +1371,65 @@
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item kurtis">
 					<!-- Block2 -->
 					<div class="block2">
-						<div class="block2-pic hov-img0">
-							<img src="images/product.jpg" alt="IMG-PRODUCT">
+										<div class="block2-pic hov-img0">
+											<div class="card-img">
+                        						<img src="images/product.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
 
-							
-						</div>
+											
+										</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
-							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-									Esprit Ruffle Shirt
-								</a>
+										<div class="block2-txt flex-w flex-t p-t-14">
+											<div class="block2-txt-child1 flex-col-l ">
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
+											</div>
 
-								<span class="stext-105 cl3">
-									$16.64
-								</span>
-							</div>
 
-							<div class="block2-txt-child2 flex-r p-t-3">
-								<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-									<a href="#" class="btn btn-outline-primary " role="button">View Details</a><br /><br />
-								</a>
-							</div>
-						</div>
-					</div>
+										</div>
+									</div>
 				</div>
 
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item bridal">
 					<!-- Block2 -->
 					<div class="block2">
-						<div class="block2-pic hov-img0">
-							<img src="images/product5.jpg" alt="IMG-PRODUCT">
+										<div class="block2-pic hov-img0">
+											<div class="card-img">
+                        						<img src="images/product3.jpg" alt="">
+                        						<span><h4>No:30</h4></span>
+                    						</div>
 
-							
-						</div>
+											
+										</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
-							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-									Herschel supply
-								</a>
+										<div class="block2-txt flex-w flex-t p-t-14">
+											<div class="block2-txt-child1 flex-col-l ">
+												<div >
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6" style="color: #000;">Virasat Kurti</h3>
+                        							<div class="row">
+	                        							<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
+		                            					</div>
+		                            					<div class="col-md-6">
+		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
+		                            					</div>
+                            						</div>
+                    							</div>
+											</div>
 
-								<span class="stext-105 cl3">
-									$35.31
-								</span>
-							</div>
 
-							<div class="block2-txt-child2 flex-r p-t-3">
-								<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-									<a href="#" class="btn btn-outline-primary " role="button">View Details</a><br /><br />
-								</a>
-							</div>
-						</div>
-					</div>
+										</div>
+									</div>
 				</div>
 
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item choli">
@@ -1334,7 +1912,55 @@
 		</div>
 	</div>
 
+<div class="modal fade" id="modalCart" tabindex="-1" style="z-index:100000;" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <!--Header-->
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Name of the product</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <!--Body-->
+      <div class="modal-body">
 
+        <div class="row">
+        	<div class="col-md-5">
+        		<img src="images/product-01.jpg" height="200px;">
+        	</div>
+        	<div class="col-md-7">
+        		<p style="margin-bottom:3px;" ><b>Desgin No:</b> 30</p>
+        		<p style="margin-bottom:3px;"><b>Description:</b>Buy Indian Virasat NavyBlue Apple Cut Kurti online in India at best price </p>
+        		<form>
+					  <div class="form-group">
+					    <label for="exampleInputEmail1"><b>Name</b></label>
+					    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name">
+					    
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleInputPassword1"><b>Number</b></label>
+					    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Contact No">
+					  </div>
+					  
+					  
+					</form>
+				
+
+
+        	</div>
+        </div>
+
+      </div>
+      <!--Footer-->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+        <button class="btn btn-primary">Contact Now</button>
+      </div>
+    </div>
+  </div>
+</div>
 <!--===============================================================================================-->	
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
