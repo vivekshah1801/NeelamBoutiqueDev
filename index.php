@@ -299,12 +299,12 @@
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
 												<div >
-                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
+                        							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6" style="color: #000;">Virasat Kurti</h3>
                         							<div class="row">
-	                        							<div class="col-md-6">
+	                        							<div class="now">
 		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
 		                            					</div>
-		                            					<div class="col-md-6">
+		                            					<div class="later">
 		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
 		                            					</div>
                             						</div>
@@ -333,10 +333,10 @@
 												<div >
                         							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
                         							<div class="row">
-	                        							<div class="col-md-6">
+	                        							<div class="now">
 		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
 		                            					</div>
-		                            					<div class="col-md-6">
+		                            					<div class="later">
 		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
 		                            					</div>
                             						</div>
@@ -366,10 +366,10 @@
 												<div >
                         							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
                         							<div class="row">
-	                        							<div class="col-md-6">
+	                        							<div class="now">
 		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
 		                            					</div>
-		                            					<div class="col-md-6">
+		                            					<div class="later">
 		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
 		                            					</div>
                             						</div>
@@ -1382,17 +1382,17 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<div >
+												
                         							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">Virasat Kurti</h3>
                         							<div class="row">
-	                        							<div class="col-md-6">
+	                        							<div class="now">
 		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
 		                            					</div>
-		                            					<div class="col-md-6">
+		                            					<div class="later">
 		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
 		                            					</div>
                             						</div>
-                    							</div>
+                    							
 											</div>
 
 
@@ -1417,10 +1417,10 @@
 												<div >
                         							<h3 class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6" style="color: #000;">Virasat Kurti</h3>
                         							<div class="row">
-	                        							<div class="col-md-6">
+	                        							<div class="now">
 		                            						<button class="btn  btn-outline-primary btn-block" data-toggle="modal" data-target="#modalCart"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;now</button> 
 		                            					</div>
-		                            					<div class="col-md-6">
+		                            					<div class="later">
 		                            						<button class="btn  btn-outline-primary btn-block"><i class="fa fa-whatsapp fa-5px" ></i>&nbsp;&nbsp;later</button>
 		                            					</div>
                             						</div>
