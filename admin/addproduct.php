@@ -48,7 +48,7 @@ include('auth.php');
                     <strong>Oops!</strong> An error occured while adding event to database. Contact admin.
                     </div>';
                 }
-                else if($_GET['msg']=="event_empty")
+                else if($_GET['msg']=="product_empty")
                 {
                     echo '<div class="alert alert-warning text-center">
                     <strong>Hello,</strong> Please fill the event form first.
@@ -63,6 +63,8 @@ include('auth.php');
             }
         ?>
     </div>
+
+
 
     <div class="container col-md-11 justify-content-center">
         <form class="container site-section mt-4 mb-5" method="post" action="addproduct_db.php" enctype="multipart/form-data">
@@ -79,17 +81,30 @@ include('auth.php');
             <div class="form-group">
                 <label for="ProductCategory">Product Category</label>
                 <select class="form-control" id="ProductCategory" placeholder="Product Category" name="ProductCategory" required>
-                    <option value="Kurti">Kurtis</option>
+                    <option value="kurti">Kurtis</option>
                     <option value="choli">Choli</option>
                     <option value="bridal">Bridal</option>
                     <option value="indo-western">Indo-Western</option>
                 </select>
             </div>
 
+            <div class="form-group">
+                <label for="ProductDescription">Product Description</label>
+                <input type="text" class="form-control" id="ProductDescription" placeholder="Product Description" name="ProductDescription" required>
+            </div>
+
+            <div class="form-group">
+                <label for="isTrending">Product Is Trending?</label>
+                <select class="form-control" id="isTrending" placeholder="Product IsTrending" name="isTrending" required>
+                    <option value="yes" selected>Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+
             <label for="event_photo">Product Photo Upload</label>
             <div class="upload-options">
                 <label>
-                    <input type="file" class="image-upload" accept="image/*" name="ProductImage " required/>
+                    <input type="file" class="image-upload" accept="image/*" name="photo_link" required/>
                 </label>
             </div>            
 

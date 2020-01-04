@@ -4,5 +4,4 @@
         header('Location: login.php?msg=unauth');
 		die();
     }
-
 ?>
