@@ -29,7 +29,7 @@ include('auth.php');
     <hr class="text-left w-75">
 
     <div class="container col-md-11 justify-content-center">
-        <table id="enquiries" class="table table-hover table-responsive dt-responsive" style="width:100%;">
+        <table id="enquirieslater" class="table table-hover table-responsive dt-responsive" style="width:100%;">
             <thead>
                 <tr>
                     <th scope="col">Sr. No.</th>
@@ -84,5 +84,13 @@ include('auth.php');
         </table>
     </div>
 </main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+    $('#enquirieslater').DataTable();
+} );
+</script>
 </body>
 </html>

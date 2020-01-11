@@ -74,26 +74,30 @@ foreach ($product as $prod) {
                         <?php echo $prod["ProductDescription"]; ?>
 						</p>
 					</div>
-                    <div class="p-t-7 p-r-85 p-r-15-lg p-r-0-md row">
-                        <div class="col-md-6">
+					<form method="post" action="LogData.php"> 
+						<div class="p-t-7 p-r-85 p-r-15-lg p-r-0-md row">
+							<div class="col-md-6">
 
-                            <label for="exampleInputEmail1" class="mt-4">Name:</label>
-                            <input type="text" class="form-control" id="EnquirerName" name="CustomerName" placeholder="Ex: David Jordan">
+								<label for="exampleInputEmail1" class="mt-4">Name:</label>
+								<input type="text" class="form-control" required id="EnquirerName" name="CustomerName" placeholder="Ex: David Jordan">
 
-                            <label for="exampleInputEmail1" class="mt-4">Prefered Time:</label>
-                            <input type="text" class="form-control" id="EnquirerMobile" name="CustomerPrefTime"  placeholder="Ex: Tomorrow Morning, 26th Jan, etc.,">
+								<label for="exampleInputEmail1" class="mt-4">Prefered Time:</label>
+								<input type="text" class="form-control" required id="EnquirerMobile" name="CustomerPrefTime"  placeholder="Ex: Tomorrow Morning, 26th Jan, etc.,">
 
-                            <label for="exampleInputEmail1" class="mt-4">Query:</label>
-                            <input type="text" class="form-control" id="EnquirerMobile" name="CustomerMessage"  placeholder="Ex: I want to know about new products">
+								<label for="exampleInputEmail1" class="mt-4">Query:</label>
+								<input type="text" class="form-control"  id="EnquirerMobile" name="CustomerMessage"  placeholder="Ex: I want to know about new products">
 
-                            <label for="exampleInputEmail1" class="mt-4">Mobile Number:</label>
-                            <input type="text" class="form-control" id="EnquirerMobile" name="CustomerNumber"  placeholder="Ex: +919867511518">
-                            
-                            <button class='mt-4 btn w-100 btn-outline-success btn-lg' ><i class='fa fa-whatsapp fa-5px' ></i>&nbsp;&nbsp;Send Enquiries</button> 
-                            
-                        </div>
-                        
-					</div>
+								<label for="exampleInputEmail1" class="mt-4">Mobile Number:</label>
+								<input type="text" class="form-control" required id="EnquirerMobile" name="CustomerNumber"  placeholder="Ex: +919867511518">
+								
+								<input type="hidden" value="later" name="enquiry_type">
+								<input type="hidden" value="$_GET['productId']" name="product_id">
+
+								
+								<button class='mt-4 btn w-100 btn-outline-success btn-lg' ><i class='fa fa-whatsapp fa-5px' ></i>&nbsp;&nbsp;Send Enquiries</button> 
+							</div>
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>

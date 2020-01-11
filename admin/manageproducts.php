@@ -12,10 +12,10 @@ include('auth.php');
 	<link rel="icon" type="image/png" href="images/icons/favicon.png"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.min.css">
+
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+
 <!--===============================================================================================-->	
     <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.bootstrap4.min.css">
 	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
@@ -67,7 +67,13 @@ include('auth.php');
     </div>
 
     <div class="container col-md-11 justify-content-center">
-        <table id="enquiries" class="table table-hover table-responsive dt-responsive" style="width:100%;">
+        <a href="addproduct.php">
+            <button class="btn btn-success btn-block mb-4 mt-4">+ Add Product</button>
+        </a>
+    </div>
+
+    <div class="container col-md-11 justify-content-center">
+        <table id="products" class="table table-hover table-responsive dt-responsive" style="width:100%;">
             <thead>
                 <tr>
                     <th scope="col">Sr. No.</th>
@@ -98,7 +104,7 @@ include('auth.php');
                     <?php $i++; ?>
                     <td><?php echo $enquiry['ProductDesignId']; ?></td>
                     <td><?php echo $enquiry['ProductName']; ?></td>
-                    <td><a href="../<?php echo $enquiry['ProductImageLink']; ?>"><?php echo $enquiry['ProductImageLink']; ?></a></td>
+                    <td><a href="../<?php echo $enquiry['ProductImageLink']; ?>"><img src="../<?php echo $enquiry['ProductImageLink']; ?>" class="img img-responsive" style="height:100px;width:100px;"></a></td>
                     <td><?php echo date('g:ia \o\n l jS F Y', strtotime($enquiry['ProductAddedOn'])); ?></td>
                     <td><?php echo $enquiry['IsTrending']; ?></td>
                     <td>
@@ -118,5 +124,13 @@ include('auth.php');
         </table>
     </div>
 </main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+    $('#products').DataTable();
+} );
+</script>
 </body>
 </html>

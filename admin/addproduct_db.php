@@ -59,6 +59,8 @@ finally{
   
     $stmt = $pdo->prepare("INSERT INTO product (ProductDesignId,ProductName,ProductCategory,ProductDescription,ProductImageLink,ProductAddedOn,isTrending) VALUES (:ProductDesignId,:ProductName,:ProductCategory,:ProductDescription,:ProductImageLink,:ProductAddedOn,:isTrending)");
 
+
+
     $stmt->bindParam(':ProductDesignId',$ProductDesignId);
     $stmt->bindParam(':ProductName',$ProductName);
     $stmt->bindParam(':ProductCategory',$ProdCategory);
@@ -68,15 +70,10 @@ finally{
     $stmt->bindParam(':isTrending',$isTrending);
     $stmt->execute();
     echo "Product added";
-    header("Location:google.com");
 
-    
     $pdo=null;
 	
-
 	header("Location:addproduct.php?msg=success");
 	die();
-
-	$pdo = null;
 
 ?>

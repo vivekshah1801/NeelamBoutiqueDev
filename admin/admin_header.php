@@ -9,7 +9,7 @@
 				<a class="nav-link" href="dashboard.php">Dashboard</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="products.php">Manage Products</a>
+				<a class="nav-link" href="manageproducts.php">Manage Products</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="enquiries.php">Current Enquiries</a>

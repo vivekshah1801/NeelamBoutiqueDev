@@ -46,13 +46,11 @@ $i = 0;
 $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
 
 foreach ($product as $prod) {
-    $str = $prod["ProductImageLink"];
-    ?>
+	$str = $prod["ProductImageLink"];
+
+
+	?>
     
-
-
-
-
 	<!-- Content page -->
 	<section class="bg0 p-t-75 p-b-120">
 		<div class="container">
@@ -74,20 +72,22 @@ foreach ($product as $prod) {
                         <?php echo $prod["ProductDescription"]; ?>
 						</p>
 					</div>
-                    <div class="p-t-7 p-r-85 p-r-15-lg p-r-0-md row">
-                        <div class="col-md-6">
+					<form method="post" action="LogData.php" target="_blank"> 
+						<div class="p-t-7 p-r-85 p-r-15-lg p-r-0-md row">
+							<div class="col-md-6">
+								<label for="exampleInputEmail1" class="mt-4">Name:</label>
+								<input type="text" class="form-control" id="EnquirerName" name="CustomerName" aria-describedby="Name" placeholder="Ex: David Jordan" required>
 
-                            <label for="exampleInputEmail1" class="mt-4">Name:</label>
-                            <input type="text" class="form-control" id="EnquirerName" name="EnquirerName" aria-describedby="Name" placeholder="Ex: David Jordan">
+								<label for="exampleInputEmail1" class="mt-4">Mobile Number:</label>
+								<input type="text" class="form-control" id="EnquirerMobile" name="CustomerNumber" aria-describedby="Mobile Number" placeholder="Ex: +919898881881" required>
+								
+								<input type="hidden" value="now" name="enquiry_type">
+								<input type="hidden" value="<?php echo $_GET['productId'] ?>" name="product_id">
 
-                            <label for="exampleInputEmail1" class="mt-4">Mobile Number:</label>
-                            <input type="text" class="form-control" id="EnquirerMobile" name="EnquirerMobile" aria-describedby="Mobile Number" placeholder="Ex: +919898881881">
-                            
-                            <button class='mt-4 btn w-100 btn-outline-success btn-lg' ><i class='fa fa-whatsapp fa-5px' ></i>&nbsp;&nbsp;Send Enquiries</button> 
-                            
-                        </div>
-                        
-					</div>
+								<button class='mt-4 btn w-100 btn-outline-success btn-lg' ><i class='fa fa-whatsapp fa-5px' ></i>&nbsp;&nbsp;Send Enquiries</button> 
+							</div>
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>

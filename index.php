@@ -292,33 +292,37 @@
 								$product = $stmt->fetchAll();
 								$i = 0;
 								$result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
-
-								foreach ($product as $prod) {
+								foreach($product as $prod)
+								{
+									$i = $i +1;
 									$str = $prod["ProductImageLink"];
-									echo "<div class='item-slick2 p-l-15 p-r-15 p-t-15 p-b-15><div class='block2'>
-										<div class='hov-img0'>
-											<div class='card-img'>
-                        						<img src=" . $str . ">
-                        						<span><h4>No:".$prod['ProductDesignId']."</h4></span>
-                    						</div>	
-										</div>
+								?>
+								
+								<div class="p-b-35">
+									<div class="card-deck">
+										<div class="card">
+											
+											<div class="card-head mb-0">
+												<img class="card-img-top img img-responsive" width="100%" height="280" src="<?php echo $prod["ProductImageLink"]?>"></img>
+											</div>
 
-										<div class='block2-txt flex-w flex-t p-t-14'>
-											<div class='block2-txt-child1 flex-col-l'>
-												<div>
-                        							<h3 class='stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6' style='color: #000;'>" . $prod["ProductName"] . "</h3>
-                        							<div class='row'>
-													<div class='now'>
-														<a href='enquiries.php?productId=".$prod["Id"]."'><button class='btn btn-outline-primary '><i class='fa fa-whatsapp fa-5px'></i>&nbsp;&nbsp;now</button></a>
-													</div>
-													<div class='later'>
-														<a href='enquiries_later.php?productId=".$prod["Id"]."'><button class='btn btn-outline-primary '><i class='fa fa-whatsapp fa-5px'></i>&nbsp;&nbsp;now</button></a>
-													</div>
-                            						</div>
-                    							</div>
-											</div>	
+											<div class="card-body mt-0">
+												<h5 class="card-title text-bold"><?php echo $prod['ProductName'];?></h5>
+												<p class="card-text mb-2 text-muted">Design No: <?php echo $prod["ProductDesignId"]?></p>
+												<div class="row justify-content-center">
+													<a class="col-6" href="enquiries.php?productId=<?php echo $prod['Id'];?>">
+														<button class="btn btn-fluid btn-primary w-100"><i class='fa fa-whatsapp fa-5px'></i> Now </button>
+													</a>
+													<a class="col-6" href="enquiries_later.php?productId=<?php echo $prod['Id'];?>">
+														<button class="btn btn-primary w-100"><i class='fa fa-whatsapp fa-5px'></i> Later </button>
+													</a>
+												</div>
+											</div>
 										</div>
-									</div>";
+									</div>
+								</div>
+
+								<?php
 								} ?>
 							</div>
 						</div>
@@ -388,7 +392,7 @@
 					</button>
 				</div>
 
-				<div class="flex-w flex-c-m m-tb-10">
+				<div class="flex-w flex-c-m m-tb-10 d-none">
 					<div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn3 trans-04 m-r-8 m-tb-4 js-show-filter">
 						<i class="icon-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-filter-list"></i>
 						<i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
@@ -605,9 +609,8 @@
 
 			<div class="row isotope-grid">
 
-				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item choli">
-					<!-- Block2 -->
-					<div class="block2">
+				
+					
 					<?php
 						include 'db_connect.php';
 						$stmt = $pdo->prepare("SELECT * from product WHERE IsTrending='yes' LIMIT 4");
@@ -616,39 +619,41 @@
 						$i = 0;
 						$result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
 
-						foreach ($product as $prod) {
-							$str = $prod["ProductImageLink"];
-							echo "<div class='item-slick2 p-l-15 p-r-15 p-t-15 p-b-15><div class='block2'>
-								<div class='block2-pic hov-img0'>
-									<div class='card-img'>
-										<img src=" . $str . ">
-										<span><h4>No:".$prod['ProductDesignId']."</h4></span>
-									</div>	
-								</div>
 
-								<div class='block2-txt flex-w flex-t p-t-14'>
-									<div class='block2-txt-child1 flex-col-l'>
-										<div>
-											<h3 class='stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6' style='color: #000;'>" . $prod["ProductName"] . "</h3>
-											<div class='row' style='margin-right:0px;margin-left:0px'>
-												<div class='col-md-6 ml-0'>
-													<a href='enquiries.php?productId=".$prod["Id"]."'><button class='btn btn-outline-primary '><i class='fa fa-whatsapp fa-5px'></i>&nbsp;&nbsp;now</button></a>
-												</div>
-												<div class='col-md-6 mr-0'>
-													<a href='enquiries_later.php?productId=".$prod["Id"]."'><button class='btn btn-outline-primary '><i class='fa fa-whatsapp fa-5px'></i>&nbsp;&nbsp;now</button></a>
-												</div>
-											</div>
+						foreach ($product as $prod) {
+						?>
+
+						<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item kurtis">
+							<div class="card-deck">
+								<div class="card">
+									
+									<div class="card-head mb-0">
+										<img class="card-img-top img img-responsive" width="100%" height="280" src="<?php echo $prod["ProductImageLink"]?>"></img>
+									</div>
+
+									<div class="card-body mt-0">
+										<h5 class="card-title text-bold"><?php echo $prod['ProductName'];?></h5>
+										<p class="card-text mb-2 text-muted">Design No: <?php echo $prod["ProductDesignId"]?></p>
+										<div class="row justify-content-center">
+											<a class="col-6" href="enquiries.php?productId=<?php echo $prod['Id'];?>">
+												<button class="btn btn-fluid btn-primary w-100"><i class='fa fa-whatsapp fa-5px'></i> Now </button>
+											</a>
+											<a class="col-6" href="enquiries_later.php?productId=<?php echo $prod['Id'];?>">
+												<button class="btn btn-primary w-100"><i class='fa fa-whatsapp fa-5px'></i> Later </button>
+											</a>
 										</div>
-									</div>	
+									</div>
 								</div>
-							</div>";
-						} ?>
-					</div>
-				</div>
+							</div>
+						</div>
+						<?php
+						}
+					?>
 			</div>
+			
 			<!-- Load more -->
 			<div class="flex-c-m flex-w w-full pt-3 mb-4">
-				<a href="#" class="flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
+				<a href="products.php" class="flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
 					View More
 				</a>
 			</div>

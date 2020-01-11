@@ -66,26 +66,26 @@
 
                 <ul>
                     <li class="p-b-10">
-                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                        <a href="about.php" class="stext-107 cl7 hov-cl1 trans-04">
                             About
                         </a>
                     </li>
 
                     <li class="p-b-10">
-                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                        <a href="terms.php" class="stext-107 cl7 hov-cl1 trans-04">
                             Terms & Conditions
                         </a>
                     </li>
 
                     <li class="p-b-10">
-                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                        <a href="contact.php" class="stext-107 cl7 hov-cl1 trans-04">
                             Request A Callback
                         </a>
                     </li>
 
                     <li class="p-b-10">
-                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Video Gallery
+                        <a href="gallery.php" class="stext-107 cl7 hov-cl1 trans-04">
+                            Gallery
                         </a>
                     </li>
                 </ul>
