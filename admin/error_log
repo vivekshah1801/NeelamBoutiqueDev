@@ -1,0 +1,103 @@
+[04-Jan-2020 23:21:02 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'remotemysql.com:3306' (0) in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/admin/enquiries.php(49): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[04-Jan-2020 23:21:06 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'remotemysql.com:3306' (0) in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/admin/scheduled_enquiries.php(52): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[04-Jan-2020 23:24:30 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'remotemysql.com:3306' (0) in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/admin/addproduct_db.php(31): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[04-Jan-2020 23:25:43 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'remotemysql.com:3306' (0) in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/admin/addproduct_db.php(31): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[04-Jan-2020 23:29:44 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'remotemysql.com:3306' (0) in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/admin/addproduct_db.php(31): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[04-Jan-2020 23:29:50 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'remotemysql.com:3306' (0) in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/admin/addproduct_db.php(31): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[04-Jan-2020 23:30:55 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'remotemysql.com:3306' (0) in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/admin/manageproducts.php(88): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[04-Jan-2020 23:30:58 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'remotemysql.com:3306' (0) in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/admin/enquiries.php(49): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[04-Jan-2020 23:31:00 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'remotemysql.com:3306' (0) in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/admin/scheduled_enquiries.php(52): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[04-Jan-2020 23:31:05 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'remotemysql.com:3306' (0) in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/admin/manageproducts.php(88): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[04-Jan-2020 23:31:40 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'remotemysql.com:3306' (0) in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/admin/addproduct_db.php(31): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[04-Jan-2020 23:33:52 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'remotemysql.com:3306' (0) in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/admin/addproduct_db.php(31): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[04-Jan-2020 23:33:57 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'remotemysql.com:3306' (0) in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/admin/addproduct_db.php(31): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[04-Jan-2020 23:34:48 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'remotemysql.com:3306' (0) in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/admin/addproduct_db.php(31): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[04-Jan-2020 23:35:06 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'remotemysql.com:3306' (0) in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/admin/addproduct_db.php(31): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[04-Jan-2020 23:35:56 Etc/GMT] PHP Notice:  Undefined variable: photo_link in /home/hrdignfk/public_html/projects/neelamboutique/admin/addproduct_db.php on line 56
+[04-Jan-2020 23:35:56 Etc/GMT] PHP Notice:  Undefined variable: pdo in /home/hrdignfk/public_html/projects/neelamboutique/admin/addproduct_db.php on line 60
+[04-Jan-2020 23:35:56 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/hrdignfk/public_html/projects/neelamboutique/admin/addproduct_db.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/admin/addproduct_db.php on line 60
+[04-Jan-2020 23:48:43 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'remotemysql.com:3306' (2) in /home/hrdignfk/public_html/projects/neelamboutique/admin/db_connect.php:22
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/admin/del_product.php(15): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/admin/db_connect.php on line 22
+[04-Jan-2020 23:48:52 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'remotemysql.com:3306' (2) in /home/hrdignfk/public_html/projects/neelamboutique/admin/db_connect.php:22
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/admin/del_product.php(15): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/admin/db_connect.php on line 22
+[10-Jan-2020 12:58:02 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined function session_close() in /home/hrdignfk/public_html/projects/neelamboutique/admin/login.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/admin/login.php on line 64
+[10-Jan-2020 12:58:14 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined function session_close() in /home/hrdignfk/public_html/projects/neelamboutique/admin/login.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/admin/login.php on line 64
+[10-Jan-2020 12:59:13 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined function session_close() in /home/hrdignfk/public_html/projects/neelamboutique/admin/login.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/admin/login.php on line 64

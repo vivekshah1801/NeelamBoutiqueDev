@@ -1,0 +1,125 @@
+[04-Jan-2020 23:00:06 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(289): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[04-Jan-2020 23:20:22 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'remotemysql.com:3306' (0) in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(289): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[04-Jan-2020 23:21:09 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'remotemysql.com:3306' (0) in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(289): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[04-Jan-2020 23:23:33 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'remotemysql.com:3306' (0) in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(289): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[05-Jan-2020 12:27:19 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1203] User 1YJUdPIJnd already has more than 'max_user_connections' active connections in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(289): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[05-Jan-2020 12:27:19 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1203] User 1YJUdPIJnd already has more than 'max_user_connections' active connections in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(612): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[05-Jan-2020 12:27:19 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1203] User 1YJUdPIJnd already has more than 'max_user_connections' active connections in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(612): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[05-Jan-2020 12:27:19 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1203] User 1YJUdPIJnd already has more than 'max_user_connections' active connections in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(289): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[05-Jan-2020 12:27:20 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1203] User 1YJUdPIJnd already has more than 'max_user_connections' active connections in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(612): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[05-Jan-2020 12:27:20 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1203] User 1YJUdPIJnd already has more than 'max_user_connections' active connections in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(612): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[05-Jan-2020 12:27:20 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1203] User 1YJUdPIJnd already has more than 'max_user_connections' active connections in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(289): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[05-Jan-2020 12:27:21 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1203] User 1YJUdPIJnd already has more than 'max_user_connections' active connections in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(289): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[05-Jan-2020 12:27:21 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1203] User 1YJUdPIJnd already has more than 'max_user_connections' active connections in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(612): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[05-Jan-2020 12:27:21 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1203] User 1YJUdPIJnd already has more than 'max_user_connections' active connections in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(289): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[05-Jan-2020 12:27:21 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1203] User 1YJUdPIJnd already has more than 'max_user_connections' active connections in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(289): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[05-Jan-2020 12:27:21 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1203] User 1YJUdPIJnd already has more than 'max_user_connections' active connections in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(612): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[05-Jan-2020 12:27:21 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1203] User 1YJUdPIJnd already has more than 'max_user_connections' active connections in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(612): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[05-Jan-2020 12:27:21 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1203] User 1YJUdPIJnd already has more than 'max_user_connections' active connections in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(612): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[05-Jan-2020 12:27:21 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1203] User 1YJUdPIJnd already has more than 'max_user_connections' active connections in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(612): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[05-Jan-2020 12:27:23 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1203] User 1YJUdPIJnd already has more than 'max_user_connections' active connections in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(612): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[05-Jan-2020 12:27:23 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1203] User 1YJUdPIJnd already has more than 'max_user_connections' active connections in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(612): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[05-Jan-2020 12:27:23 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1203] User 1YJUdPIJnd already has more than 'max_user_connections' active connections in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(612): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[05-Jan-2020 12:27:23 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1203] User 1YJUdPIJnd already has more than 'max_user_connections' active connections in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(612): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[05-Jan-2020 12:27:23 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1203] User 1YJUdPIJnd already has more than 'max_user_connections' active connections in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(612): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21
+[05-Jan-2020 12:27:25 Etc/GMT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1203] User 1YJUdPIJnd already has more than 'max_user_connections' active connections in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php:21
+Stack trace:
+#0 /home/hrdignfk/public_html/projects/neelamboutique/index.php(612): include()
+#1 {main}
+  thrown in /home/hrdignfk/public_html/projects/neelamboutique/db_connect.php on line 21

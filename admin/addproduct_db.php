@@ -14,6 +14,7 @@
 
 	echo $file_size;
 
+    try{
     $file_tmp =$_FILES['photo_link']['tmp_name'];
     $file_type=$_FILES['photo_link']['type'];
 
@@ -38,9 +39,16 @@
     
     $photo_link = "images/products/".$product_id.".".$file_ext;
 
+    
 	//appending ../ for moving to parent sibiling folder
 	move_uploaded_file($file_tmp,"../".$photo_link);
-
+    }
+    catch (exception $e) {
+    echo $e->getMessage();
+}
+finally{
+    echo "helli";
+}
 
     $ProductDesignId=$_POST["ProductDesignId"];
     $ProductName=$_POST["ProductName"];

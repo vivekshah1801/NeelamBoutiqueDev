@@ -12,7 +12,7 @@
 
 	$product = $_POST['product_id'];
 	
-	include('db_connect.php');
+	include('../db_connect.php');
 
    
     $stmt=$pdo->prepare("DELETE FROM product WHERE Id = ?");

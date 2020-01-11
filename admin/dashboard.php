@@ -28,7 +28,7 @@ include('auth.php');
                     <div class="card"><img class="card-img-top w-100 d-block">
                         <div class="card-body">
                             <h5 class="card-title">Manage Products</h5>
-                            <p class="card-text">Manage custom products Here</p><a href="products.php"><button class="btn btn-primary" type="button">Manage Your Products</button></a>
+                            <p class="card-text">Manage custom products Here</p><a href="manageproducts.php"><button class="btn btn-primary" type="button">Manage Your Products</button></a>
                         </div>
                     </div>
                     <div class="card"><img class="card-img-top w-100 d-block">

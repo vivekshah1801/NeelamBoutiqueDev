@@ -296,7 +296,7 @@
 								foreach ($product as $prod) {
 									$str = $prod["ProductImageLink"];
 									echo "<div class='item-slick2 p-l-15 p-r-15 p-t-15 p-b-15><div class='block2'>
-										<div class='block2-pic hov-img0'>
+										<div class='hov-img0'>
 											<div class='card-img'>
                         						<img src=" . $str . ">
                         						<span><h4>No:".$prod['ProductDesignId']."</h4></span>
