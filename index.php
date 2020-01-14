@@ -303,7 +303,7 @@
 										<div class="card">
 											
 											<div class="card-head mb-0">
-												<div class="prod_image" style="background-image: url(<?php echo $prod['ProductImageLink'];?>); height:280px">Gogogel</div> 
+												<div class="prod_image" style="background-image: url(<?php echo $prod['ProductImageLink'];?>); height:280px"></div> 
 											</div>
 
 											<div class="card-body mt-0">
@@ -626,7 +626,7 @@
 								<div class="card">
 									
 									<div class="card-head mb-0">
-										<div class="prod_image" style="background-image: url(<?php echo $prod['ProductImageLink'];?>); height:280px">Gogogel</div> 
+										<div class="prod_image" style="background-image: url(<?php echo $prod['ProductImageLink'];?>); height:280px"></div> 
 										<!-- <img class="card-img-top img img-responsive" width="100%" height="280" src="<?php echo $prod["ProductImageLink"]?>"></img> -->
 									</div>
 
