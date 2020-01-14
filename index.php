@@ -35,7 +35,16 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<!--===============================================================================================-->
+	<style>
+		.prod_image{
+			background-attachment: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size:cover;
+		}
+	</style>
 </head>
+
 
 <body class="animsition">
 
@@ -128,15 +137,6 @@
 
 				<li>
 					<a href="products.php">Products</a>
-					<ul class="sub-menu-m">
-						<li><a href="products.php">Kurti</a></li>
-						<li><a href="products.php">Choli</a></li>
-						<li><a href="products.php">Bridal</a></li>
-						<li><a href="products.php">Indo-Western</a></li>
-					</ul>
-					<span class="arrow-main-menu-m">
-						<i class="fa fa-angle-right" aria-hidden="true"></i>
-					</span>
 				</li>
 
 				<!-- <li>
@@ -287,7 +287,7 @@
 							<div class="slick2">
 								<?php
 								include 'db_connect.php';
-								$stmt = $pdo->prepare("SELECT * from product WHERE IsTrending='yes' LIMIT 4");
+								$stmt = $pdo->prepare("SELECT * from product WHERE IsTrending='yes' LIMIT 7");
 								$stmt->execute();
 								$product = $stmt->fetchAll();
 								$i = 0;
@@ -298,12 +298,12 @@
 									$str = $prod["ProductImageLink"];
 								?>
 								
-								<div class="p-b-35">
+								<div class="p-b-35 mx-3">
 									<div class="card-deck">
 										<div class="card">
 											
 											<div class="card-head mb-0">
-												<img class="card-img-top img img-responsive" width="100%" height="280" src="<?php echo $prod["ProductImageLink"]?>"></img>
+												<div class="prod_image" style="background-image: url(<?php echo $prod['ProductImageLink'];?>); height:280px">Gogogel</div> 
 											</div>
 
 											<div class="card-body mt-0">
@@ -609,11 +609,9 @@
 
 			<div class="row isotope-grid">
 
-				
-					
 					<?php
 						include 'db_connect.php';
-						$stmt = $pdo->prepare("SELECT * from product WHERE IsTrending='yes' LIMIT 4");
+						$stmt = $pdo->prepare("SELECT * from product LIMIT 20");
 						$stmt->execute();
 						$product = $stmt->fetchAll();
 						$i = 0;
@@ -623,12 +621,13 @@
 						foreach ($product as $prod) {
 						?>
 
-						<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item kurtis">
+						<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item <?php echo $prod['ProductCategory']; ?>">
 							<div class="card-deck">
 								<div class="card">
 									
 									<div class="card-head mb-0">
-										<img class="card-img-top img img-responsive" width="100%" height="280" src="<?php echo $prod["ProductImageLink"]?>"></img>
+										<div class="prod_image" style="background-image: url(<?php echo $prod['ProductImageLink'];?>); height:280px">Gogogel</div> 
+										<!-- <img class="card-img-top img img-responsive" width="100%" height="280" src="<?php echo $prod["ProductImageLink"]?>"></img> -->
 									</div>
 
 									<div class="card-body mt-0">

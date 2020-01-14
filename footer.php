@@ -114,7 +114,7 @@
             
             <p class="stext-107 cl6 txt-center mt-4">
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy; <script>document.write(new Date().getFullYear());</script> Neelam Boutique | <wbr>Designed and Developed By <a href="hrdigitalmarketing.in">HR Digital Marketing</a>
+                Copyright &copy; <script>document.write(new Date().getFullYear());</script> Neelam Boutique | <wbr>Designed and Developed By <a href="https://hrdigitalmarketing.in">HR Digital Marketing</a>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
         </div>
